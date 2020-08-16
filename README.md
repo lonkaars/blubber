@@ -1,5 +1,3 @@
-<h1 align="center">Big changes coming soon! Repo is semi-deprecated for now. __UPDATE AT 2200 CDT TODAY!!__</h1>
-
 <p align="center"
 
 ![Imgur](https://i.imgur.com/7pRwvfc.png)
