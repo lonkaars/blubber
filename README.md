@@ -10,9 +10,9 @@
 ***
 
 
-![img](scrots/desktop.png)
+![img](images/desktop.png)
 
-![img](scrots/colorpallete.png)
+![img](images/colorpallete.png)
 
 
 ***
@@ -21,7 +21,7 @@
 
 <p align="center"
 
-![img](scrots/neovim.png)
+![img](images/neovim.png)
 
 </p>
 
@@ -33,7 +33,7 @@
 
 <p align="center"
 
-![img](scrots/alacritty.png)
+![img](images/alacritty.png)
 
 </p>
 
@@ -46,7 +46,7 @@
 
 <p align="center"
 
-![img](scrots/firefox.png)
+![img](images/firefox.png)
 
 </p>
 
@@ -57,11 +57,11 @@
 <h3 align="center">GTK+ and Openbox Theme.</h3>
 <h5 align="center">I would never forget to incude these.</a></h5>
 
-![img](scrots/gtk.png)
+![img](images/gtk.png)
 
 <p align="center"
 
-![img](scrots/openbox.png)
+![img](images/openbox.png)
 
 </p>
 
