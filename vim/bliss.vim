@@ -1,24 +1,18 @@
-if !has("gui_running")
-  if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-tomorrow-night.sh"
-  endif
-endif
-
 " GUI color definitions
-let s:gui00        = "1c1b1d"
-let g:base16_gui00 = "1c1b1d"
+let s:gui00        = "121213"
+let g:base16_gui00 = "121213"
 
-let s:gui01        = "262427"
-let g:base16_gui01 = "262427"
+let s:gui01        = "1c1b1d"
+let g:base16_gui01 = "1c1b1d"
 
-let s:gui02        = "302e31"
-let g:base16_gui02 = "302e31"
+let s:gui02        = "262427"
+let g:base16_gui02 = "262427"
 
 let s:gui03        = "39373b"
 let g:base16_gui03 = "39373b"
 
-let s:gui04        = "DE9DAC"
-let g:base16_gui04 = "DE9DAC"
+let s:gui04        = "9DCCDE"
+let g:base16_gui04 = "9DCCDE"
 
 let s:gui05        = "fdf9f7"
 let g:base16_gui05 = "fdf9f7"
