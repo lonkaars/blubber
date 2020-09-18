@@ -66,7 +66,7 @@ Color=249,236,232
 # --- general options ---
 
 [General]
-Description=terminal.sexy
+Description=
 Opacity=1
 Wallpaper=
 
