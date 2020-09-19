@@ -8,15 +8,15 @@ let g:base16_gui01 = "1c1b1d"
 let s:gui02        = "262427"
 let g:base16_gui02 = "262427"
 
-let s:gui03        = "39373b"
-let g:base16_gui03 = "39373b"
+let s:gui03        = "434146"
+let g:base16_gui03 = "434146"
 
 let s:gui04        = "9DCCDE"
 let g:base16_gui04 = "9DCCDE"
 
 let s:gui05        = "fdf9f7"
 let g:base16_gui05 = "fdf9f7"
-
+" comment
 let s:gui06        = "d6d5d8"
 let g:base16_gui06 = "d6d5d8"
 
@@ -240,6 +240,7 @@ call <sid>hi("Label",        s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("Number",       s:gui09, "", s:cterm09, "", "", "")
 call <sid>hi("Operator",     s:gui05, "", s:cterm05, "", "none", "")
 call <sid>hi("PreProc",      s:gui0A, "", s:cterm0A, "", "", "")
+call <sid>hi("shShebang",    s:gui03, "", s:cterm0A, "", "", "")
 call <sid>hi("Repeat",       s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("Special",      s:gui0C, "", s:cterm0C, "", "", "")
 call <sid>hi("SpecialChar",  s:gui0F, "", s:cterm0F, "", "", "")
