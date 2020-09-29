@@ -8,4 +8,10 @@
 
 ## Installation
 
-Move `/vim/bliss.vim` into your Vim colors folder, usually `~/.vim/colors` or `~/.config/nvim/colors`. Then set `colorscheme bliss` in your Vim config.
+### Using vim-plug
+
+Add `Plug 'co1ncidence/bliss'` to your `.vimrc` (or equivalent).
+
+### Manual install
+
+Move `colors/bliss.vim` into your Vim colors folder, usually `~/.vim/colors` or `~/.config/nvim/colors`. Then set `colorscheme bliss` in your Vim config.
