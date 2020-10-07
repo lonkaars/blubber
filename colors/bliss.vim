@@ -1,3 +1,11 @@
+" -----------------------------------------------------------------------------
+" Name:         Bliss
+" Description:  A colorscheme inspired by the SA Bliss keycap set
+" Author:       nuaNce <r3yan.chaudhry@zohomail.com>
+" Website:      https://github.com/co1ncidence/bliss
+" License:      BSD 3-Clause License
+" -----------------------------------------------------------------------------
+"
 " GUI color definitions
 let s:gui00        = "121213"
 let g:base16_gui00 = "121213"
