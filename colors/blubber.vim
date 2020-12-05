@@ -1,59 +1,59 @@
 " -----------------------------------------------------------------------------
-" Name:         Bliss
-" Description:  A colorscheme inspired by the SA Bliss keycap set
-" Author:       nuaNce <r3yan.chaudhry@zohomail.com>
-" Website:      https://github.com/co1ncidence/bliss
+" Name:         blubber
+" Description:  Light mode fork of bliss by nuaNce
+" Author:       Loekaars <l.leblansch@gmail.com>, nuaNce <r3yan.chaudhry@zohomail.com>
+" Website:      https://github.com/lonkaars/blubber
 " License:      BSD 3-Clause License
 " -----------------------------------------------------------------------------
 "
 " GUI color definitions
-let s:gui00        = "121213"
-let g:base16_gui00 = "121213"
+let s:gui00        = "fdf9f7"
+let g:base16_gui00 = "fdf9f7"
 
-let s:gui01        = "1c1b1d"
-let g:base16_gui01 = "1c1b1d"
+let s:gui01        = "eadad3"
+let g:base16_gui01 = "eadad3"
 
-let s:gui02        = "262427"
-let g:base16_gui02 = "262427"
+let s:gui02        = "dbccc5"
+let g:base16_gui02 = "dbccc5"
 
-let s:gui03        = "434146"
-let g:base16_gui03 = "434146"
+let s:gui03        = "ccbeb7"
+let g:base16_gui03 = "ccbeb7"
 
-let s:gui04        = "9DCCDE"
-let g:base16_gui04 = "9DCCDE"
+let s:gui04        = "62808c"
+let g:base16_gui04 = "62808c"
 
-let s:gui05        = "fdf9f7"
-let g:base16_gui05 = "fdf9f7"
+let s:gui05        = "121213"
+let g:base16_gui05 = "121213"
 " comment
-let s:gui06        = "d6d5d8"
-let g:base16_gui06 = "d6d5d8"
+let s:gui06        = "393b3b"
+let g:base16_gui06 = "393b3b"
 
 let s:gui07        = "fdf9f7"
 let g:base16_gui07 = "fdf9f7"
 " red
-let s:gui08        = "DE9DAC"
-let g:base16_gui08 = "DE9DAC"
+let s:gui08        = "8c627a"
+let g:base16_gui08 = "8c627a"
 " orange
-let s:gui09        = "DE9DAC"
-let g:base16_gui09 = "DE9DAC"
+let s:gui09        = "8c627a"
+let g:base16_gui09 = "8c627a"
 " yellow
-let s:gui0A        = "DEDD9D"
-let g:base16_gui0A = "DEDD9D"
+let s:gui0A        = "8c8b62"
+let g:base16_gui0A = "8c8b62"
 " green
-let s:gui0B        = "9DDEAF"
-let g:base16_gui0B = "9DDEAF"
+let s:gui0B        = "628c6e"
+let g:base16_gui0B = "628c6e"
 " cyan
-let s:gui0C        = "9DCCDE"
-let g:base16_gui0C = "9DCCDE"
+let s:gui0C        = "62808c"
+let g:base16_gui0C = "62808c"
 " blue
-let s:gui0D        = "9DACDE"
-let g:base16_gui0D = "9DACDE"
+let s:gui0D        = "626b8c"
+let g:base16_gui0D = "626b8c"
 " magenta
-let s:gui0E        = "AF9DDE"
-let g:base16_gui0E = "AF9DDE"
+let s:gui0E        = "6e628c"
+let g:base16_gui0E = "6e628c"
 " dark red
-let s:gui0F        = "DE9DAC"
-let g:base16_gui0F = "DE9DAC"
+let s:gui0F        = "8c627a"
+let g:base16_gui0F = "8c627a"
 
 " Terminal color definitions
 let s:cterm00        = "00"
@@ -106,22 +106,22 @@ endif
 
 " Neovim terminal colours
 if has("nvim")
-  let g:terminal_color_0 =  "#1d1f21"
-  let g:terminal_color_1 =  "#cc6666"
-  let g:terminal_color_2 =  "#b5bd68"
-  let g:terminal_color_3 =  "#f0c674"
-  let g:terminal_color_4 =  "#81a2be"
-  let g:terminal_color_5 =  "#b294bb"
-  let g:terminal_color_6 =  "#8abeb7"
-  let g:terminal_color_7 =  "#c5c8c6"
-  let g:terminal_color_8 =  "#969896"
-  let g:terminal_color_9 =  "#cc6666"
-  let g:terminal_color_10 = "#b5bd68"
-  let g:terminal_color_11 = "#f0c674"
-  let g:terminal_color_12 = "#81a2be"
-  let g:terminal_color_13 = "#b294bb"
-  let g:terminal_color_14 = "#8abeb7"
-  let g:terminal_color_15 = "#ffffff"
+  let g:terminal_color_0 =  "#fdf9f7"
+  let g:terminal_color_1 =  "#8c627a"
+  let g:terminal_color_2 =  "#628c6e"
+  let g:terminal_color_3 =  "#8c8b62"
+  let g:terminal_color_4 =  "#626b8c"
+  let g:terminal_color_5 =  "#6e628c"
+  let g:terminal_color_6 =  "#62808c"
+  let g:terminal_color_7 =  "#121213"
+  let g:terminal_color_8 =  "#ccbeb7"
+  let g:terminal_color_9 =  "#725063"
+  let g:terminal_color_10 = "#50725a"
+  let g:terminal_color_11 = "#727250"
+  let g:terminal_color_12 = "#505872"
+  let g:terminal_color_13 = "#5a5072"
+  let g:terminal_color_14 = "#506872"
+  let g:terminal_color_15 = "#393b3b"
   let g:terminal_color_background = g:terminal_color_0
   let g:terminal_color_foreground = g:terminal_color_5
   if &background == "light"
@@ -130,29 +130,29 @@ if has("nvim")
   endif
 elseif has("terminal")
   let g:terminal_ansi_colors = [
-        \ "#1d1f21",
-        \ "#cc6666",
-        \ "#8abeb7",
-        \ "#b5bd68",
-        \ "#f0c674",
-        \ "#81a2be",
-        \ "#b294bb",
-        \ "#c5c8c6",
-        \ "#969896",
-        \ "#cc6666",
-        \ "#b5bd68",
-        \ "#f0c674",
-        \ "#81a2be",
-        \ "#b294bb",
-        \ "#8abeb7",
-        \ "#ffffff",
+        \ "#fdf9f7",
+        \ "#8c627a",
+        \ "#628c6e",
+        \ "#8c8b62",
+        \ "#626b8c",
+        \ "#6e628c",
+        \ "#62808c",
+        \ "#121213",
+        \ "#ccbeb7",
+        \ "#725063",
+        \ "#50725a",
+        \ "#727250",
+        \ "#505872",
+        \ "#5a5072",
+        \ "#506872",
+        \ "#393b3b",
         \ ]
 endif
 
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "bliss"
+let g:colors_name = "blubber"
 
 " Highlighting function
 " Optional variables are attributes and guisp
